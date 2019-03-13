@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Part 2</string>
+    <string name="title_welcome">Welcome!\nWhere do you want to go?</string>
+    <string name="button_map">Map</string>
+    <string name="about_us">About Us</string>
+</resources>

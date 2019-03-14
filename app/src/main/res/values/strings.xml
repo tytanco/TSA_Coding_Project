@@ -3,4 +3,9 @@
     <string name="title_welcome">Welcome!\nWhere do you want to go?</string>
     <string name="button_map">Map</string>
     <string name="about_us">About Us</string>
+    <string name="brhs_caption">Picture of the front of Bordentown Regional High School</string>
+    <string name="about_title">About Bordentown Regional High School</string>
+    <string name="about_main_paragraph">Bordentown Regional High School has students from Bordentown City, Bordentown Township</string>
+    <string name="scroll_text">this is a test text hhhasdjkldas;kljasdfkasd;jklfjasdklfjkd;lsajfkl;sdjafkljsda;lfjasd;kljf;klasdthis is a test text hhhasdjkldas;kljasdfkasd;jklfjasdklfjkd;lsajfkl;sdjafkljsda;lfjasd;kljf;klasdthis is a test text hhhasdjkldas;kljasdfkasd;jklfjasdklfjkd;lsajfkl;sdjafkljsda;lfjasd;kljf;klasdthis is a test text hhhasdjkldas;kljasdfkasd;jklfjasdklfjkd;lsajfkl;sdjafkljsda;lfjasd;kljf;klasdthis is a test text hhhasdjkldas;kljasdfkasd;jklfjasdklfjkd;lsajfkl;sdjafkljsda;lfjasd;kljf;klasd</string>
+    <string name="about_scroll_text">I am testing the scroll feature of android</string>
 </resources>

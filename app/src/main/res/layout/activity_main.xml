@@ -61,7 +61,7 @@
         android:layout_height="205dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:contentDescription="Picture of the front of Bordentown Regional High School"
+        android:contentDescription="@string/brhs_caption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -2,6 +2,7 @@ package com.example.part2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
@@ -13,12 +14,12 @@ public class MainActivity extends AppCompatActivity {
     public Button about;
 
     public void init() {
-        map = (Button) findViewById(R.id.but1);
+        map = findViewById(R.id.but1);
 
         map.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent toy = new Intent(MainActivity.this, MapActivity.class);
-                startActivity(toy);
+                Intent mapIntent = new Intent(MainActivity.this, MapActivity.class);
+                startActivity(mapIntent);
             }
         });
 
@@ -26,10 +27,13 @@ public class MainActivity extends AppCompatActivity {
 
         about.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent toy = new Intent(MainActivity.this, About.class);
-                startActivity(toy);
+                Intent aboutIntent = new Intent(MainActivity.this, About.class);
+                startActivity(aboutIntent);
             }
         });
+
+
+
     }
 
 

@@ -1,12 +1,10 @@
 <resources>
-    <string name="app_name">Part 2</string>
+    <string name="app_name">BRHS Guide</string>
     <string name="title_welcome">Welcome!\nWhere do you want to go?</string>
     <string name="button_map">Map</string>
     <string name="about_us">About Us</string>
     <string name="brhs_caption">Picture of the front of Bordentown Regional High School</string>
-    <string name="about_title">About Bordentown Regional High School</string>
-    <string name="about_main_paragraph">Bordentown Regional High School has students from Bordentown City, Bordentown Township</string>
-    <string name="about_scroll_text">I am testing the scroll feature of android</string>
+    <string name="about_title">Subjects</string>
     <string name="second_card_text">Math\nDepartment</string>
     <string name="first_card_text">English\nDepartment</string>
     <string name="history_department">Social Studies\nDepartment</string>

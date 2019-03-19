@@ -6,30 +6,69 @@
     android:layout_height="match_parent"
     tools:context=".MapActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:contentDescription="@string/map_desc"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapTitle"
-        app:layout_constraintVertical_bias="0.761"
-        app:srcCompat="@drawable/brhsmap" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
-    <TextView
-        android:id="@+id/mapTitle"
-        android:layout_width="139dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/map_title"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstFloorTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/map_title"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/firstFloorMap"
+                android:layout_width="wrap_content"
+                android:layout_height="252dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/first_floor_map_desc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstFloorTitle"
+                app:layout_constraintVertical_bias="0.761"
+                app:srcCompat="@drawable/brhsmap" />
+
+            <TextView
+                android:id="@+id/secondFloorTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/second_floor"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/secondFloorMap"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:contentDescription="@string/second_floor_map_desc"
+                app:srcCompat="@drawable/secondfloormap"
+                tools:layout_editor_absoluteY="139dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

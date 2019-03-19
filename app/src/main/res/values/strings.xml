@@ -18,9 +18,15 @@
     <string name="social_studies_list">Michael Brennan\nJennifer DeMas\nMaya Fair\nJames Gill\nLarry Larned\nJennifer McCoy\nJohn Tobias\nKevin Wright</string>
     <string name="social_studies_pic_desc">Globe</string>
     <string name="science_card_text">Science\nDepartment</string>
-    <string name="map_desc">First floor map</string>
+    <string name="first_floor_map_desc">First floor map</string>
     <string name="map_title">First Floor</string>
     <string name="beaker_desc">Beaker</string>
     <string name="science_list">Kathy Carhart\nKaren Harrison\nRebecca Jacobsen\nSaba Pullella\nMichelle Quigley\nScott Schlenker\nTerry Smith</string>
     <string name="science_teacher_title">Science Teachers</string>
+    <string name="second_floor">Second Floor</string>
+    <string name="contact">Contact</string>
+    <string name="contact_title">Contact\nInformation</string>
+    <string name="contact_info">Address\n318 Ward Ave\nBordentown, NJ 08505\n\nPhone\n609–298–0025\n\nFax\n609–291–0347</string>
+    <string name="logo_desc">BRHS Logo</string>
+    <string name="second_floor_map_desc">Second Floor map</string>
 </resources>

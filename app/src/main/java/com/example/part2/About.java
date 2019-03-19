@@ -11,6 +11,7 @@ public class About extends AppCompatActivity {
     public CardView mathCard;
     public CardView englishCard;
     public CardView historyCard;
+    public CardView scienceCard;
 
     public void init() {
         mathCard = findViewById(R.id.mathCard);
@@ -38,6 +39,16 @@ public class About extends AppCompatActivity {
             public void onClick(View v) {
                 Intent historyIntent = new Intent(About.this, HistoryCardActivity.class);
                 startActivity(historyIntent);
+            }
+        });
+
+        scienceCard = findViewById(R.id.scienceCard);
+
+        scienceCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent scienceIntent = new Intent(About.this, ScienceCardActivity.class);
+                startActivity(scienceIntent);
             }
         });
     }

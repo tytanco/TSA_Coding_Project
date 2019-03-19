@@ -23,4 +23,6 @@
     <string name="map_desc">First floor map</string>
     <string name="map_title">First Floor</string>
     <string name="beaker_desc">Beaker</string>
+    <string name="science_list">Kathy Carhart\nKaren Harrison\nRebecca Jacobsen\nSaba Pullella\nMichelle Quigley\nScott Schlenker\nTerry Smith</string>
+    <string name="science_teacher_title">Science Teachers</string>
 </resources>

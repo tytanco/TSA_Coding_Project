@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathCardActivity">
+    tools:context=".HistoryCardActivity">
 
     <TextView
-        android:id="@+id/mathTeacherTitle"
+        android:id="@+id/socialStudiesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="176dp"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="105dp"
-        android:text="@string/math_title"
+        android:layout_marginEnd="178dp"
+        android:text="@string/social_studies_title"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,13 +24,14 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mathTeacherTitle">
+        app:layout_constraintTop_toBottomOf="@+id/socialStudiesTitle"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,15 +39,15 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="8sp"
-                android:text="@string/math_list"
+                android:text="@string/social_studies_list"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
-                tools:layout_editor_absoluteX="176dp"
-                tools:layout_editor_absoluteY="134dp" />
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="92dp" />
         </LinearLayout>
     </ScrollView>
 
